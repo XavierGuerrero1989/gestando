@@ -1,0 +1,17 @@
+@import "../../scss/abstracts/variables";
+@import "../../scss/abstracts/responsive";
+
+.row {
+    --bs-gutter-x: 0 !important; 
+  }
+  
+  .mainRowR{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.iframe{
+    border-radius: 20px 20px 20px 20px;
+}

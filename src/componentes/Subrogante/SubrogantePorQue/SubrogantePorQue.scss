@@ -1,0 +1,55 @@
+@import "../../../scss/abstracts/variables";
+@import "../../../scss/abstracts/responsive";
+
+.subrogantePorQue-ctn{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+
+    @include tablet{
+        height: 100vh;
+    }
+
+    @include movil{
+        height: 100vh;
+    }
+}
+
+.subPorQue-tit{
+    font-family: $fonttitulo;
+}
+
+.subPorQue-txt{
+    font-family: $fontnormal;
+    font-size: 1.3rem;
+}
+
+.minirow-ctn{
+    border: solid $violeta 2px;
+    border-radius: 15px 15px 15px 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.subro-img{
+    width: 60vh;
+    border-radius: 10%;
+
+    @include tablet{
+        width: 45vh;
+        margin-top: 40px;
+    }
+
+    @include movil{
+        width: 45vh;
+        margin-top: 40px;
+    }
+}
+
+.minirow-tit{
+    font-family: $fonttitulo;
+}
+
+.minirow-txt{
+    font-family: $fontnormal;
+}

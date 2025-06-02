@@ -1,0 +1,15 @@
+// colores
+$violeta: rgb(139, 82, 255);
+$turquesa: rgb(50,171,216);
+
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital@1&family=Nunito:wght@500&display=swap');
+$fontnormal: 'Comic Neue', cursive;
+$fonttitulo: 'Nunito', sans-serif;
+
+:export {
+    violeta: $violeta;
+    turquesa: $turquesa;
+    normal: $fontnormal;
+    titulo: $fonttitulo;
+}

@@ -1,0 +1,19 @@
+@import "../../../scss/abstracts/variables";
+@import "../../../scss/abstracts/responsive";
+
+.boton-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 20vh;
+}
+
+.row-title{
+    font-family: $fonttitulo;
+    margin: 20px;
+    color: white;
+}
+
+.row-button{
+    margin: 10px;
+}

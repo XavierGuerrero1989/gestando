@@ -1,0 +1,27 @@
+@import "../../../scss/abstracts/variables";
+@import "../../../scss/abstracts/responsive";
+
+.eleccion-titulo{
+    font-family: $fonttitulo;
+    color: $violeta;
+    margin: 10px;
+}
+
+.eleccion-txt{
+    font-family: $fontnormal;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.eleccion-row-titulo{
+    border: solid black 2px;
+}
+
+.seccion-eleccion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid black 2px;
+    height: 30vh;
+}

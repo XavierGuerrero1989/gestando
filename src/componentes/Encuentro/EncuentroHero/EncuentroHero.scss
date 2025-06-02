@@ -1,0 +1,23 @@
+@import "../../../scss/abstracts/variables";
+@import "../../../scss/abstracts/responsive";
+
+.encuentroHero-ctn{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+
+.encuentroHero-col{
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+}
+
+.encuentroHero-tit{
+    font-family: $fonttitulo;
+}
+
+.encuentroHero-txt{
+    font-family: $fontnormal;
+}

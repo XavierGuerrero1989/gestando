@@ -1,0 +1,17 @@
+@import "../../../scss/abstracts/variables";
+@import "../../../scss/abstracts/responsive";
+
+.legalHero-ctn{
+    height: 55vh;
+    display: flex;
+    align-items: center;
+}
+
+.legalHero-tit{
+    font-family: $fonttitulo;
+}
+
+.legalHero-txt{
+    font-family: $fontnormal;
+    font-size: 1.2rem;
+}

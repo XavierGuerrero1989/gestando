@@ -1,0 +1,74 @@
+@import "../../../scss/abstracts/variables";
+@import "../../../scss/abstracts/responsive";
+
+.tipos-row-gral{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @include tablet{
+        flex-direction: row;
+    }
+
+    @include movil{
+        flex-direction: row;
+    }
+}
+
+.tipos-minirow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 20px;
+    margin: 5px;
+    border-bottom: solid $violeta 1px;
+}
+
+.tipos-img{
+    width: 50vh;
+    padding: 3px;
+    border-radius: 200px 200px 200px 200px;
+    border: solid $violeta 4px;
+
+    @include tablet{
+        width: 15vh;
+    }
+
+    @include movil{
+        width: 15vh;
+    }
+}
+
+.tipos-txt{
+    margin: 50px;
+    font-family: $fontnormal;
+}
+
+.tipos-txt-tituloInter{
+    font-family: $fonttitulo;
+}
+
+.tipos-titulo{
+    font-family: $fonttitulo;
+    margin: 25px;
+}
+
+.tipos-final-frase{
+    background-color: $violeta;
+    color: white;
+    font-family: $fontnormal;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+
+    @include tablet{
+        padding: 10px;
+    }
+
+    @include movil{
+        padding: 10px;
+    }
+}

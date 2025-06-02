@@ -1,0 +1,43 @@
+@import "../../../scss/abstracts/variables";
+@import "../../../scss/abstracts/responsive";
+
+.legalAbogado-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+
+    
+}
+
+.legalCarrousel{
+    height: 45vh;
+    align-items: center;
+    justify-content: center;
+
+    @include tablet{
+        height: 130vh;
+    }
+
+    @include movil{
+        height: 130vh;
+    }
+}
+
+.legalAbogado-tit{
+    font-family: $fonttitulo;
+}
+
+.legalAbogado-txt{
+    font-family: $fontnormal;
+    font-size: 1.2rem;
+}
+
+.legalCard-tit{
+    font-family: $fonttitulo;
+}
+
+.legalCard-txt{
+    font-family: $fontnormal;
+}

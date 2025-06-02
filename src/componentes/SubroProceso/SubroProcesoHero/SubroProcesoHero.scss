@@ -1,0 +1,70 @@
+@import "../../../scss/abstracts/variables";
+@import "../../../scss/abstracts/responsive";
+
+
+.video-background1 {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  video {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 1;  /* Opacidad del video */
+  }
+  
+  .close-ctn1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    position: relative;
+    height: 90vh;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.2);  // Fondo con opacidad
+    padding: 20px;
+  }
+  
+  .close-row1 {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .video-txt1 {
+    font-family: $fonttitulo;
+    font-size: 2.5rem;
+    color: white;
+
+    @include tablet{
+      padding-top: 300px;
+      color: black;
+    }
+
+    @include movil{
+      padding-top: 300px;
+      color: black;
+    }
+  }
+
+  .video-txt2 {
+    font-family: $fontnormal;
+    font-size: 1.5rem;
+    color: white;
+
+    @include tablet{
+      margin-top: 50px;
+      color: black;
+    }
+
+    @include movil{
+      margin-top: 50px;
+      color: black;
+    }
+  }
+  

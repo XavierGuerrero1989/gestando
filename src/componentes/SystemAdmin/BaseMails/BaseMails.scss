@@ -1,0 +1,40 @@
+.patientList-column {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  border: 3px solid #ccc; // Puedes cambiar este color según tu preferencia
+  background-color: #f8f9fa; // Puedes cambiar este color según tu preferencia
+}
+
+.patientList-item {
+  position: relative;
+  cursor: pointer;
+  padding: 10px;
+  margin: 5px 0;
+  &:hover .delete-icon {
+    display: block;
+  }
+}
+
+.patientList-item:hover {
+  background-color: #e2e3e5;
+}
+
+.patientList-selected {
+  background-color: #adb5bd; // Este es el color que permanecerá incluso después del hover
+}
+
+.patientList-info {
+  flex: 3; // Espacio más grande para información del paciente
+}
+
+.delete-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: red;
+  display: none; // Oculto por defecto, visible en hover
+}
+ // Hidden by default, shown on hover
+  

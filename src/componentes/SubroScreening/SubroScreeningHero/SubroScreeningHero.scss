@@ -1,0 +1,25 @@
+@import "../../../scss/abstracts/variables";
+@import "../../../scss/abstracts/responsive";
+
+.subroScreening-ctn{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+.subroScreening-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.subroScreening-tit{
+    font-family: $fonttitulo;
+    font-size: 2rem;
+}
+
+.subroScreening-txt{
+    font-family: $fontnormal;
+    font-size: 1.3rem;
+}

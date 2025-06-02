@@ -1,0 +1,21 @@
+@import "../../../scss/abstracts/variables";
+@import "../../../scss/abstracts/responsive";
+
+.legalSegundo-row{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.legalSegundo-ctn{
+    background-color: rgba(179, 157, 196, 0.4);
+}
+
+.legalSegundo-tit{
+    font-family: $fonttitulo;
+}
+
+.legalSegundo-txt{
+    font-family: $fontnormal;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,18 @@
+@import "../../../scss/abstracts/variables";
+@import "../../../scss/abstracts/responsive";
+
+.subroApHero{
+    height: 70vh;
+    display: flex;
+    align-items:center;
+}
+
+.subroApHero-tit{
+    font-family: $fonttitulo;
+
+}
+
+.subroApHero-txt{
+    font-family: $fontnormal;
+    font-size: 1.3rem;
+}

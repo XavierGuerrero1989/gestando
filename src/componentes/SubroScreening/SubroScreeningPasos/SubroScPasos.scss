@@ -1,0 +1,47 @@
+@import "../../../scss/abstracts/variables";
+@import "../../../scss/abstracts/responsive";
+
+
+.subro-sc-pasos-ctn{
+    display: flex;
+    flex-direction: column;
+}
+
+.subro-sc-pasos-row1{
+    display: flex;
+    justify-content: center;
+    margin: 35px;
+    padding: 10px;
+    background-color: rgba(139, 82, 255, 0.2);
+    border-radius: 25px 25px 25px 25px;
+    border: solid rgb(139, 82, 255) 3px;
+}
+
+.subro-sc-pasos-row2{
+    display: flex;
+    justify-content: center;
+    margin: 35px;
+    padding: 10px;
+    background-color: rgba(50,171,216, 0.2);
+    border-radius: 25px 25px 25px 25px;
+    border: solid rgb(50,171,216) 3px;
+}
+
+.subro-sc-pasos-row3{
+    display: flex;
+    justify-content: center;
+    margin: 35px;
+    padding: 10px;
+    background-color: rgba(255, 69, 0, 0.2);
+    border-radius: 25px 25px 25px 25px;
+    border: solid rgb(255, 69, 0) 3px;
+}
+
+.subro-sc-tit{
+    font-family: $fonttitulo;
+}
+
+.subro-sc-txt{
+    font-family: $fontnormal;
+    font-size: 1.3rem;
+}

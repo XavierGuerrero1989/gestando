@@ -1,0 +1,76 @@
+@import "../../../scss/abstracts/responsive";
+@import "../../../scss/abstracts/variables";
+
+
+.subro-proceso-pasos-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(139, 82, 255, 0.2);
+
+  .paso, .paso-selected, .paso-not-selected {
+    transition: background 0.5s, color 0.5s;
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    display: inline-block;
+  }
+
+  .paso {
+    &.paso-selected {
+      background: violet;
+      color: white;
+    }
+
+    &.paso-not-selected {
+      background: lightblue;
+      color: black;
+    }
+  }
+
+  .contenido {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: opacity 0.5s;
+  }
+}
+
+.animista-fade-in {
+  animation: fade-in 0.5s ease-in-out;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.paso-titulo{
+  font-family: $fonttitulo;
+}
+
+.paso-sub{
+  font-family: $fontnormal;
+}
+
+.pasostitulo-ctn{
+  margin: 20px;
+  margin-bottom: 50px;
+}
+
+.pasos-titulo{
+  font-family: $fonttitulo;
+}
+
+.pasos-texto{
+  font-family: $fontnormal;
+  font-size: 1.3rem;
+}

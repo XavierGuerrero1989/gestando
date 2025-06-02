@@ -1,0 +1,44 @@
+@import "../../scss/abstracts/variables";
+@import "../../scss/abstracts/responsive";
+
+.ctnNavComp{
+    font-family: $fonttitulo;
+    margin-left: 20vh;
+
+    @include tablet{
+        margin-left: 0vh;
+    }
+
+    @include movil{
+        margin-left: 0vh;
+    }
+}
+
+.linkElement{
+    &:hover{
+        background-color: $violeta;
+        color: white;
+    }
+}
+
+.navImg{
+    width: 15vh;
+}
+
+.langButton{
+    margin: 10px;
+}
+
+.langSelector{
+    width: 4vh;
+}
+
+.custom-button-1{
+    margin: 10px;
+}
+
+.loginBoton{
+    width: 6vh;
+    margin-left: 10px;
+    margin-right: 10px;
+}

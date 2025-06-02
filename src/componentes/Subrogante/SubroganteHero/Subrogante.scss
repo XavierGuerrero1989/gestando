@@ -1,0 +1,17 @@
+@import "../../../scss/abstracts/variables";
+@import "../../../scss/abstracts/responsive";
+
+.subroganteHero{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.subHero-tit{
+    font-family: $fonttitulo;
+}
+
+.subHero-txt{
+    font-family: $fontnormal;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,30 @@
+@import "../../../scss/abstracts/variables";
+@import "../../../scss/abstracts/responsive";
+
+.correcto-textoctn{
+    padding: 25px;
+}
+
+.correcto-tit{
+    font-family: $fonttitulo;
+}
+
+.correcto-txt{
+    font-family: $fontnormal;
+}
+
+.correcto-img{
+    width: 55vh;
+    border-radius: 50%;
+    margin: 25px;
+    border: solid $turquesa 5px;
+    padding: 10px;
+
+    @include tablet{
+        width: 20vh;
+    }
+
+    @include movil{
+        width: 20vh;
+    }
+}

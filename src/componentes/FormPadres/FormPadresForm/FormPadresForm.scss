@@ -1,0 +1,30 @@
+@import "../../../scss/abstracts/variables";
+@import "../../../scss/abstracts/responsive";
+
+.form-ctn{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-form-element{
+    margin: 10px;
+    font-family: $fontnormal;
+    font-size: 1.2rem;
+}
+
+.inputComent{
+    width: 300px;
+}
+
+.selectionFieldForm{
+    width: 150px;
+}
+
+.submit-button{
+    margin: 10px;
+    background-color: $turquesa;
+    padding: 10px;
+    font-family: $fontnormal;
+    font-weight: bold;
+    border-radius: 5px 5px 5px 5px;
+}

@@ -1,0 +1,33 @@
+@import "../../scss/abstracts/variables";
+@import "../../scss/abstracts/responsive";
+
+
+.marquee-container {
+    overflow: hidden;
+    font-family: $fonttitulo;
+    background-color: $violeta; // Color de fondo de la marquesina
+    color: #fff; // Color del texto
+    padding: 5px 0; // Espaciado interior
+  }
+  
+  .marquee-content {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 15s linear infinite; // Cambia la duración a 15s
+    animation-delay: 0s, 10s; // Añade un retraso al reinicio
+    padding-left: 100%; // Inicio fuera del área visible
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(-100%, 0);
+    }
+  }
+  
+  span {
+    margin-right: 20px; // Espaciado entre noticias
+  }
+  

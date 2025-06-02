@@ -1,0 +1,62 @@
+@import "../../../scss/abstracts/variables";
+@import "../../../scss/abstracts/responsive";
+
+.alternative-layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    flex-direction: column;
+  
+    .content {
+      text-align: center;
+  
+      .title {
+        font-family: $fonttitulo;
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+  
+      .subtitle {
+        font-family: $fontnormal;
+        font-size: 16px;
+        color: #888;
+        margin-bottom: 20px;
+      }
+  
+      .cards {
+        display: flex;
+        justify-content: space-around;
+        width: 80%;
+  
+        .card {
+          width: 200px;
+          padding: 20px;
+          background-color: #e0e0e0;
+          border-radius: 8px;
+          cursor: pointer;
+          transition: background-color 0.3s ease, transform 0.3s ease;
+  
+          &:hover {
+            background-color: #ddd;
+            transform: scale(1.05);
+          }
+  
+          &.active {
+            background-color: #4caf50;
+            color: #fff;
+          }
+  
+          h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+          }
+  
+          p {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+  

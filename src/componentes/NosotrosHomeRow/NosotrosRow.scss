@@ -1,0 +1,19 @@
+@import "../../scss/abstracts/variables";
+@import "../../scss/abstracts/responsive";
+
+.mainRow{
+    padding: 25px;
+}
+
+.fotoBebe{
+    border-radius: 80px 80px 80px 80px;
+    width: 80%;
+
+    @include tablet{
+        width: 100%;
+    }
+
+    @include movil{
+        width: 100%;
+    }
+}

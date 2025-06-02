@@ -1,0 +1,27 @@
+@import "../../../scss/abstracts/variables";
+@import "../../../scss/abstracts/responsive";
+
+.como-ctn{
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+
+    @include tablet{
+        height: 140vh;
+    }
+
+    @include movil{
+        height: 140vh;
+    }
+}
+
+.encuentro-tit{
+    font-family: $fonttitulo;
+}
+
+.encuentro-txt{
+    font-family: $fontnormal;
+    font-size: 1.2rem;
+}

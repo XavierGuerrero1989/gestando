@@ -1,0 +1,30 @@
+@import "../../../scss/abstracts/variables";
+@import "../../../scss/abstracts/responsive";
+
+.consideraciones-ctn{
+    border-top: 10px solid $turquesa;
+    border-bottom: 10px solid $violeta;
+}
+
+.consideraciones-img{
+    width: 60vh;
+    margin: 25px;
+    border-radius: 20px 20px 20px 20px !important;
+
+    @include tablet{
+        width: 20vh;
+    }
+
+    @include movil{
+        width: 20vh;
+    }
+}
+
+.consideraciones-tit{
+    font-family: $fonttitulo;
+}
+
+.consideraciones-txt{
+    font-family: $fontnormal;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,16 @@
+@import "../../../scss/abstracts/variables";
+@import "../../../scss/abstracts/responsive";
+
+.procesoHero-txt{
+    padding: 20px;
+    height: 60vh;
+}
+
+.procesos-titulo{
+    font-family: $fonttitulo;
+}
+
+.procesos-txt{
+    font-family: $fontnormal;
+    font-size: 1.2rem;
+}

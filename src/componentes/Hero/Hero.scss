@@ -1,0 +1,63 @@
+@import "../../scss/abstracts/variables";
+@import "../../scss/abstracts/responsive";
+
+
+
+.row1{
+    width: 100% !important;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.nombre{
+    width: 30%;
+    margin: 120px;
+
+    @include tablet{
+        width: 60%;
+        margin: 70px;
+    }
+
+    @include movil{
+        width: 60%;
+        margin: 70px;
+    }
+}
+
+
+.card{
+    background-color: rgba(50,171,216, 0.2);
+    margin: 20px;
+    border-color: rgb(50,171,216);
+    width: 20rem;
+
+    @include tablet{
+        width: 90%;
+        
+    }
+
+    @include movil{
+        width: 90%;
+        
+    }
+}
+
+.custom-button{
+    background-color: rgba(140, 82, 255, 0.5);
+    border-color: rgb(140, 82, 255);
+}
+
+.miniFoto{
+    width: 100%;
+    padding: 15px;
+
+    @include tablet{
+        width: 100%;
+        
+    }
+
+    @include movil{
+        width: 100%;
+        
+    }
+}

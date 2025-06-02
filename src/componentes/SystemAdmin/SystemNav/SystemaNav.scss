@@ -1,0 +1,25 @@
+@import "../../../scss/abstracts/variables";
+@import "../../../scss/abstracts/responsive";
+
+.secondary-nav {
+    text-align: center;
+    background-color: rgba(139, 82, 255, 0.5);
+    padding: 10px;
+
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .nav-item {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #333;
+    font-family: $fonttitulo;
+  }

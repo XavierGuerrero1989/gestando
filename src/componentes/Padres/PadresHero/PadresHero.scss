@@ -1,0 +1,15 @@
+@import "../../../scss/abstracts/variables";
+@import "../../../scss/abstracts/responsive";
+
+.padresHero{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: $fonttitulo;
+    color: white;
+}
+
+.padresHeroSubText{
+    font-size: 1.3rem;
+}

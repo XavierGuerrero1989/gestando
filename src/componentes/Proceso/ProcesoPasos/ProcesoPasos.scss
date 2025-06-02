@@ -1,0 +1,53 @@
+@import "../../../scss/abstracts/variables";
+@import "../../../scss/abstracts/responsive";
+
+
+
+.titulo-principal{
+    font-family: $fonttitulo !important;
+    font-size: 2rem !important;
+}
+
+.texto-principal{
+    font-family: $fontnormal;
+    font-size: 1.2rem !important;
+}
+
+.renderctn{
+    font-family: $fontnormal;
+}
+
+.titulo-render{
+    font-family: $fonttitulo;
+    font-weight: bold;
+    font-size: 2rem;
+
+    @include tablet{
+        font-size: 0.7rem;
+    }
+
+    @include movil{
+        font-size: 0.7rem;
+    }
+}
+
+.texto-render{
+    font-family: $fontnormal;
+    font-size: 1.2rem;
+
+    @include tablet{
+        font-size: 0.7rem;
+    }
+
+    @include movil{
+        font-size: 0.7rem;
+    }
+}
+
+.render-seleccion{
+
+
+    :hover{
+        cursor: pointer;
+    }
+}
