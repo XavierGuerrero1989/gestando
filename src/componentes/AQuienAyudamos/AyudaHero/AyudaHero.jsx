@@ -7,7 +7,7 @@ function AyudaHero() {
   const { t } = useTranslation();
 
   return (
-    <div className='Container ayuda-Hero' style={{ backgroundImage:` url(${FondoHeroAyuda}) `}}>
+    <div className='Container ayuda-Hero' style={{backgroundImage:`url(${FondoHeroAyuda})`}}>
         <div className='row justify-content-center'>
           <div className='col-md-6 ayuda-hero-col'>
             <h1 className='ayuda-titulo text-center'>{t('ayudamosHeroTitulo')}</h1>
