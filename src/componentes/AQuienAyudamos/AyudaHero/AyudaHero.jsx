@@ -1,5 +1,5 @@
 import React from 'react';
-import FondoHeroAyuda from '../../../imgs/FondoHeroAyuda.png';
+import FondoHeroAyuda from '../../../imgs/fondoHeroAyuda.png';
 import { useTranslation } from 'react-i18next';
 
 function AyudaHero() {
